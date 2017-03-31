@@ -5,14 +5,16 @@
 \usepackage{url}
 \usepackage[colorlinks,allcolors=blue]{hyperref}
 \usepackage[numbers]{natbib}
+\usepackage{amsthm}
 
+\newtheorem{mydef}{Определение}
 
 \title{Дипломная работа}
 \author{Козлов Никита}
 
 \begin{document}
 
-Заглавная страница
+{\huge Извлечение данных о состоянии веб-приложения на основе анализа образа памяти веб-сервера}
 
 \newpage
 
@@ -27,11 +29,9 @@
 \newpage
 
 \section{Введение}
-\subsection{Определения}
-Веб-сервер
-Система управления содержимым сайта
-\cite{some} 
-
+\begin{mydef}
+  Пример определения.
+\end{mydef}
 
 \section{Цель работы}
 Цель
@@ -57,8 +57,8 @@
 \section{Заключение}
 Заключение
 
-\bibliography{bibliography} 
-\bibliographystyle{plainnat} 
+\bibliography{bibliography}
+\bibliographystyle{plainnat}
 
 
 \end{document}
